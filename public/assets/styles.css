@@ -65,6 +65,6 @@ li:hover{
 
 h1{
     background: url(/assets/logo.png) no-repeat center;
-    margin-bottom: 0;
+    margin-bottom: 50;
     text-indent: -10000px;
 }
