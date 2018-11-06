@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 // ----------------------- make new schema for the model -----------------------
 
 var schema = new mongoose.Schema({
-	title:{type : String},
+	title:{type : String,required:true},
 	completed:{type :String,default:false},
 	date:{type:String,default:Date.now}
 });
